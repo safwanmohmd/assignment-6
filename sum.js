@@ -1,8 +1,9 @@
-let num1 = 3
-let num2 = 4
+let num = 14345;
+let sum = num.toString();  
+let plus = 0;
 
+for (let i = 0; i < sum.length; i++) {
+    plus += Number(sum[i]); 
+}
 
-
-let sum = num1 + num2 
-
-console.log(sum);
+console.log(plus); 
